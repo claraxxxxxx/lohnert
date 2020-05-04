@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Carta Astral</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<link rel="stylesheet" href="iconos.css">
+	<meta name="viewport" content="width=device-width, initial-sclae=1">
+	
+	<style>
+@import url('https://fonts.googleapis.com/css?family=Public+Sans&display=swap');
+</style>
+
+</head>
+<body onload="mostrar()">
+
+	<header>
+		<div id="marca"></div>
+		<nav id="botonera_1">
+			<ul>
+				<li><a href="index.html">Home</a>  </li>
+				<li><a href="signos.html">Signos</a></li>
+				<li><a href="planetas.html">Planetas</a></li>
+				<li><a href="cartaastral.html">Carta Astral</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section id="carta_astral">
+
+		<div class="img_brush">
+	
+		</div>
+		
+
+		<form action="#cartaastral" id="formulario">
+			<label for="nombre">Nombre:</label>
+			<input type="text" id="nombre2" maxlength="7" name="nombre" placeholder="Escribe tu nombre" required>
+
+			<label for="fecha_nacimiento">Fecha de nacimiento:</label>
+			<input type="date" id="date" name="fecha_nacimiento" required>
+
+			<label for="hora_nacimiento">Hora de nacimiento:</label>
+			<input type="time" id="time" name="hora_nacimiento" required>
+
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="correo" required>
+
+			<input type="submit" id="enviar" value="Enviar">
+
+		</form>
+
+
+
+		<div id="coment">
+
+			<article id="ayuda">
+				
+				<p>Cuéntanos tu experiencia:</p>
+
+			</article>
+
+			<article id="editable" contenteditable>
+			
+			</article>
+
+			<p id="guardar">
+
+				<a href="" onclick="guardar()">Guardar</a>
+
+		    </p>
+
+
+			<p id="borrar">
+
+				<a href="" onclick="borrar()">Borrar</a>
+
+			</p>
+
+		</div>
+
+		<div id="muestradatos">
+
+
+			<p id="eliminardatos">
+
+				<a href="" onclick="eliminardatos()">Borrar Datos</a>
+				
+			</p>
+			
+			
+		</div>
+
+
+	</section>
+
+<footer>
+		<nav id="botonera_2">
+			<ul>
+				<li><a href="https://es-la.facebook.com/"><span class="icon-facebook-official"></span></a></li>
+				<li><a href="https://www.instagram.com/?hl=es-la"><span class="icon-instagram"></span></a></li>
+				<li><a href="https://accounts.google.com/signin"><span class="icon-google-plus-circle"></span></a></li>
+			</ul>
+		</nav>
+	</footer>
+<script type="text/javascript" src="codigocartaastral.js"></script>
+
+<script type="text/javascript">
+	
+    var item = document.querySelector ('#editable')
+
+    function guardar ()  {
+      
+      sessionStorage.setItem('comentario', item.innerHTML)
+      alert("Comentario guardado. ¡Gracias!")
+
+    }
+
+    function borrar ()  {
+     
+     sessionStorage.clear()
+     location.reload()
+
+    }
+
+    function mostrar () {
+
+    	if (sessionStorage.getItem('comentario')) {
+
+    		item.innerHTML = sessionStorage.getItem('comentario')
+    	}
+
+    }
+
+</script>
+<script type="text/javascript" src="storage.js"></script>
+</body>
+</html>

@@ -1,0 +1,1306 @@
+body {font-family: arial;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%202/marble.jpg);
+background-repeat: repeat;   }
+
+header {width: 960px; 
+height: 150px;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px; 
+border: 1px solid white;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+  }
+
+  div#bienvenido {width: 960px;
+  height: 100px;
+  background-color: white;
+  border: 3px solid #7772a1;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px; 
+background-image: url(https://lohnert.000webhostapp.com/javascript/pattern24.jpg);
+background-repeat: repeat;
+     }
+
+     div#bienvenido h2 {font-size: 30px;
+     	position: relative;
+     	text-align: justify;
+     	font-family: 'Public Sans', sans-serif;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    vertical-align: center; 
+    }
+
+div#marca {width: 260px;
+height: 150px;
+background-image: url(https://lohnert.000webhostapp.com/Modulo%202%20Ejercicio%201/Image3_bien.png);
+margin: auto;
+float: left;
+position: relative;
+left: 350px;
+   }
+
+nav#botonera_1 {width: 350px;
+height: 70px;
+float: right;
+position: relative;
+font-family: 'Public Sans', sans-serif;
+font-size: 13px;
+margin-right: 10px;
+ }
+
+nav#botonera_1 ul {margin: 0;
+padding:0;
+list-style-type: none;  }
+
+nav#botonera_1 ul li {display: inline;
+  }
+
+nav#botonera_1 ul li a {display: inline-block;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.5s;
+text-decoration: none;
+color: #783f8a;
+padding: 30px 10px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav#botonera_1 ul:hover li a {
+transform: scale(0.5);
+opacity: .2;
+filter: blur(5px);   }
+
+nav#botonera_1 ul li a:hover {transform: scale(1.2);
+opacity: 1;
+filter: blur(0);   }
+
+
+
+
+section#contenido {width: 960px;
+height: 1020px;
+background-image: url(url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%202/marble.jpg);
+background-repeat: repeat;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+font-family: 'Public Sans', sans-serif;
+font-size: 15px; }
+
+div#imagen_1 {width: 300px;
+height: 500px;
+background-image: url(https://lohnert.000webhostapp.com/Modulo%202%20Ejercicio%201/image14_bien.jpg);
+float: left;
+margin-bottom: 10px;   }
+
+article#texto_1 {width: 650px;
+height: 250PX;
+float: right;
+background-color: #e3d5f5;
+margin-bottom: 10px;
+box-sizing: border-box;
+-moz-box-shadow: 0px 0px 30px #7d64a1;
+-webkit-box-shadow: 0px 0px 30px #7d64a1;
+box-shadow: 0px 0px 30px #7d64a1; }
+
+article#texto_1 h2 {font-size: 20px;
+margin: 0;
+padding: 10px;
+box-sizing: border-box;
+text-align: justify;
+word-wrap: break-word;  }
+
+article#texto_1 p {margin: 0;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;  }
+
+div#imagen_2 {width: 320px;
+height: 240px;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/GIFFRASE.gif);
+float: left;
+margin-left: 10px; 
+margin-bottom: 10px;
+border: 1px solid white;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;   }
+
+ 
+div#imagen_3 {width: 320px;
+height: 240px;
+float: right;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/galaxy4.jpg);
+background-size: cover;
+margin-bottom: 10px;  }
+
+article#texto_2 {width: 630px;
+height: 250px;
+float: left;
+background-color: #e3d5f5;
+margin-bottom: 10px;
+box-sizing: border-box;
+-moz-box-shadow: 0px 0px 30px #7d64a1;
+-webkit-box-shadow: 0px 0px 30px #7d64a1;
+box-shadow: 0px 0px 30px #7d64a1;
+   }
+
+article#texto_2 h2 {font-size: 20px;
+margin: 0;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;   }
+
+article#texto_2 p {margin: 0;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;  }
+
+div#imagen_4 {width: 320px;
+height: 250px;
+background-image: url(https://lohnert.000webhostapp.com/Modulo%202%20Ejercicio%201/spaceplace.jpg);
+float: right;
+margin-bottom: 10px;  }
+
+article#texto_3 {width: 360px;
+height: 250px;
+float: left;
+background-color: #787878;
+box-sizing: border-box;
+-moz-box-shadow: 0px 0px 30px #9e9ba3;
+-webkit-box-shadow: 0px 0px 30px #9e9ba3;
+box-shadow: 0px 0px 30px #9e9ba3;    }
+
+article#texto_3 h2 {margin: 0;
+	font-size: 20px;
+	color: white;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;   }
+
+article#texto_3 p {margin: 0;
+padding: 10px;
+text-align: justify;
+color: white;
+word-wrap: break-word;  }
+
+div#imagen_5 {width: 220px;
+height: 250px;
+float: left;
+background-image: url(https://lohnert.000webhostapp.com/Modulo%202%20Ejercicio%201/fullmoon6.png);
+background-size: cover;
+margin-left: 10px;
+border: 1px solid black;
+-moz-border-radius: 20px;
+-webkit-border-radius: 20px;    }
+
+article#texto_4 {width: 360px;
+height: 250px;
+float: right;
+background-color: #787878;
+box-sizing: border-box;
+-moz-box-shadow: 0px 0px 30px #9e9ba3;
+-webkit-box-shadow: 0px 0px 30px #9e9ba3;
+box-shadow: 0px 0px 30px #9e9ba3;   }
+
+article#texto_4 p {margin: 0;
+padding: 10px;
+text-align: justify;
+color: white;
+word-wrap: break-word;   }
+
+nav#botonera_2 {width: 180px;
+height: 70px;
+float: left;
+font-size: 30px;
+position: relative;
+    }
+
+nav#botonera_2 ul {margin-top: 20px;
+	margin-left: 10px;
+padding:0;
+list-style-type: none; }
+
+nav#botonera_2 ul li {display: inline;
+  }
+
+nav#botonera_2 ul li a {text-decoration: none;
+padding: 10px;
+color: #783f8a;
+position: relative;
+transition: 0.5s; }
+
+nav#botonera_2 ul:hover li a {
+opacity: .2;
+filter: blur(3px);   }
+
+nav#botonera_2 ul li a:hover {
+opacity: 1;
+filter: blur(0);   }
+
+
+footer {width: 960px;
+height: 150px;
+margin-right: auto;
+margin-left: auto;
+background-color: white;
+border: 1px solid white;
+-moz-border-radius: 10px 0px 0px 10px;
+-webkit-border-radius: 0px 0px 10px 10px; }
+
+
+
+#signos {width: 960px;
+height: 1270px;
+margin-bottom: 10px;
+background-color: white;
+position: relative;
+background: -webkit-linear-gradient(top, white, #afb8c7);
+background: -moz-linear-gradient(top, white, #afb8c7);
+margin-left: auto;
+margin-right: auto;
+font-family: 'Public Sans', sans-serif;
+font-size: 15px;   }
+
+/*/
+div#primeroo {width: 960px;
+height: 400px;
+}
+
+#primeroo video {
+	width: 500px;
+float: left;
+margin-top: 10px;
+margin-left: 20px;
+margin-bottom: 30px; 
+border: solid 5px white;
+box-shadow: -5px 10px 7px #3d3d3d;
+-moz-box-shadow: -5px 10px 7px #3d3d3d;
+-webkit-box-shadow: -5px 10px 7px #3d3d3d;  }
+
+
+ #botones { float: right;
+ 	width: 250px;
+ 	height: 100px;
+ 	margin-right: 100px;
+ 	margin-top: 150px;
+ 	position: relative;
+ }
+
+
+
+ #botones button {margin: 5px;
+ 	width: 40px;
+ 		height: 40px;
+ 		-moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+        position: relative;
+        transition: 0.3s;} 
+
+        nav #botones button:hover {background-color: #a288b5;
+         }
+
+
+/*/
+
+
+div#titulovideo {width: 960px;
+height: 200px;
+margin-top: 30px;
+padding: 0;
+float: left;
+}
+
+article h3 {font-size: 30px;
+font-family: 'Public Sans', sans-serif;
+box-sizing: border-box;
+padding: 10px;
+margin-right: 50px;
+margin-left: 50px;
+text-align: center;
+word-wrap: break-word; }
+
+article h3 a {text-decoration-line: none;
+color: #54619c; }
+
+ #botones2 {float: left;
+ 	width: 215px;
+ 	height: 50px;
+ 	display: inline;
+ 	margin-left: 120px;
+ 	margin-top: 140px;
+ 	position: relative;
+ 	box-sizing: border-box;}
+
+ 	#botones2 button { width: 40px;
+ 		height: 40px;
+ 		box-sizing: border-box;
+ 		display: inline-block;
+ 		margin: 5px;
+ 		-moz-border-radius: 10px 10px 10px 10px;
+        -webkit-border-radius: 10px 10px 10px 10px;
+     position: relative;
+        transition: 0.3s; } 
+
+         nav #botones2 button:hover {background-color: #a288b5;
+         	animation-timing-function: ease-in-out;
+         }
+
+ 
+ #animacionn {
+ 	position: relative;
+    width: 10px;
+    height: 10px;
+    margin-top: 10px;
+box-shadow: 1px 1px 1px black;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+-webkit-animation-name: 'controlani';
+-moz-animation-name: 'controlani';
+background-color: #b4e0e0; }
+
+
+ 	@-webkit-keyframes controlani { from {transform: translate(0px); }
+ 
+ 	to {transform: translate(200px,0); } }
+
+
+
+ 	@-moz-keyframes controlani { from {transform: translate(0px); }
+ 
+ 	to {transform: translate(200px,0); } }
+
+
+ #animacionn1 {
+ 	position: relative;
+    width: 10px;
+    height: 10px;
+    margin-bottom: 10px;
+box-shadow: 1px 1px 1px black;
+animation-duration: 5s;
+animation-timing-function: ease-in-out;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+-webkit-animation-name: 'controlani2';
+-moz-animation-name: 'controlani2';
+background-color: #d2b4e0; }
+
+ 	@-webkit-keyframes controlani2 { from {transform: translate(200px,0); }
+ 
+ 	to {transform: translate(0px); } }
+
+
+
+ 	@-moz-keyframes controlani2 { from {transform: translate(200px,0); }
+ 
+ 	to {transform: translate(0px); } }
+
+
+#segundoo video {width: 500px;
+
+float: right;
+margin-top: 10px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+border: solid 5px white;
+box-shadow: -5px 10px 7px #3d3d3d;
+-moz-box-shadow: -5px 10px 7px #3d3d3d;
+-webkit-box-shadow: -5px 10px 7px #3d3d3d;  }
+
+
+
+#cajalienzo {width: 960px;
+height: 305px;
+clear: both;
+margin-left: auto;
+margin-right: auto;
+}
+
+#cuadro1 {width: 420px;
+height: 305px;
+background-color: none;
+float: left;
+}
+
+#cuadro2 {width: 530px;
+height: 305px;
+background-color: none;
+float: right;
+}
+
+
+#lienzo2 {
+background-color: none;
+
+}
+
+
+div#iconsmadeby {width: 200px;
+height: 100px;
+padding: 10px;
+float: right;}
+
+
+
+
+#carta_astral {width: 960px;
+height: 840px;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/clouds.jpg);
+background-repeat: repeat;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 10px;
+padding: 0;
+font-family: 'Public Sans', sans-serif;
+font-size: 15px;
+    }
+
+.img_brush {width: 500px;
+height: 300px;
+float: left; 
+margin-left: 50px;
+margin-top: 70px;
+margin-bottom: 80px;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/img_brush2.png);
+position: relative;
+-webkit-animation-name: 'animation2';
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-name: 'animation2';
+-moz-animation-duration: 5s;
+-moz-animation-iteration-count: infinite;
+ }
+
+@-webkit-keyframes animation2 { 0% {transform: scale(0.6);
+ }
+ 	50% {transform: scale(1); }
+
+    100% {transform: scale(0.6); }  }
+
+ 	@-moz-keyframes animation2 {0% {transform: scale(0.6);
+ }
+ 	50% {transform: scale(1); }
+
+    100% {transform: scale(0.6); }  }
+
+
+
+
+#formulario {width: 280px;
+	height: 400px;
+    border: 1px solid;
+    border: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    float: right;
+      } 
+
+#formulario label {font-size: 14px;
+font-family: arial;
+display: block;
+width: 100%;  }
+
+#formulario input, textarea {margin-bottom: 20px;
+width: 100%;
+padding: 10px;
+box-sizing: border-box;
+border: 1px solid #ccc   }
+
+input[type="submit"] {margin-bottom: 0;
+background-color: #783f8a;
+color: white;    }
+
+
+#muestradatos {margin: 0;
+width: 430px;
+height: 400px;
+float: right;}
+
+/*#datosastro {
+padding: 10px;
+width: 400px;
+height: 200px;
+}*/
+
+#eliminardatos {margin-left: 150px;
+padding: 0;
+font-size: 17px;
+
+}
+
+
+#coment {width: 520px;
+height: 400px;
+background-color: none;
+margin: 0 auto;
+padding: 0;
+float: left; }
+
+#editable {width: 480px;
+height: 200px;
+padding: 10px;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+border: 1px solid #d4d4d4;
+box-shadow: -5px 5px 7px #3d3d3d;
+-moz-box-shadow: -5px 5px 7px #3d3d3d;
+-webkit-box-shadow: -5px 5px 7px #3d3d3d;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px; }
+
+
+
+#ayuda p {margin-top: 10px;
+margin-bottom: 0;
+font-size: 20px;
+padding: 10px;}
+
+#guardar { padding: 10px;
+margin-left: 140px;
+color: blue;
+text-decoration: none;
+font-size: 17px;
+float: left;
+}
+
+#borrar {
+padding: 10px;
+margin-right: 140px;
+color: blue;
+text-decoration: none;
+font-size: 17px;
+float: right;
+}
+
+
+
+
+
+/*planetas contenido */
+
+
+#planetas_contenido {width: 960px;
+height: 1200px;
+background-color: white;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+font-family: 'Public Sans', sans-serif;
+font-size: 15px;
+ }
+
+div#imagen1 {width: 960px;
+height: 140px;
+margin-bottom: 20px;
+position: relative;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/bannersatellite2.jpg);
+-webkit-animation-name: 'animation1';
+-webkit-animation-duration: 5s;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-name: 'animation1';
+-moz-animation-duration: 5s;
+-moz-animation-iteration-count: infinite;
+ }
+
+
+ 	@-webkit-keyframes animation1 { 0% {opacity: 0.5; }
+ 	50% {opacity: 1;}
+ 	100% {opacity: 0.5;} }
+
+ 	@-moz-keyframes animation1 { 0% {opacity: 0.5; }
+ 	50% {opacity: 1;}
+ 	100% {opacity: 0.5;} }
+
+article#texto1 { width: 320px;
+height: 200px;
+float: left;
+margin-bottom: 20px;
+background-color: #f5e3b0;
+
+box-shadow: -5px 5px 7px #3d3d3d;
+-moz-box-shadow: -5px 5px 7px #3d3d3d;
+-webkit-box-shadow: -5px 5px 7px #3d3d3d;
+
+ }
+
+article#texto1 h2 {font-size: 20px;
+ 	box-sizing: border-box;
+ 	margin: 70px;
+ 	text-align: center;
+ 	word-wrap: break-word;
+ 	margin-bottom: 20px;
+ }
+
+div#imagen2 {width: 300px;
+height: 200px;
+float: left;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/sun2.png);
+margin-left: 10px;
+margin-right: 10px;
+border: 1px solid white;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-sizing: border-box;
+margin-bottom: 20px;
+
+-moz-box-shadow: 0px 0px 30px #f5e3b0;
+-webkit-box-shadow: 0px 0px 30px #f5e3b0;
+box-shadow: 0px 0px 30px #f5e3b0;
+  } 
+
+article#texto2 { width: 320px;
+height: 200px;
+float: right;
+background-color: blue;
+margin-bottom: 20px;
+background-color: #f5e3b0;
+
+box-shadow: -5px 5px 7px #3d3d3d;
+-moz-box-shadow: -5px 5px 7px #3d3d3d;
+-webkit-box-shadow: -5px 5px 7px #3d3d3d;
+}
+
+article#texto2 p {box-sizing: border-box;
+margin: 0;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;}
+
+
+div#imagen3 {width: 300px;
+height: 200px;
+float: left;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/moon3.jpg);
+margin-right: 10px;
+border: 1px solid white;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+box-sizing: border-box;
+margin-bottom: 20px;
+
+-moz-box-shadow: 0px 0px 30px #cfcfcf;
+-webkit-box-shadow: 0px 0px 30px #cfcfcf;
+box-shadow: 0px 0px 30px #cfcfcf;
+
+    }
+
+article#texto3 {width: 650px;
+height: 200px;
+background-color: #cfcfcf;
+float: right;
+margin-bottom: 20px;
+
+box-shadow: -5px 5px 7px #3d3d3d;
+-moz-box-shadow: -5px 5px 7px #3d3d3d;
+-webkit-box-shadow: -5px 5px 7px #3d3d3d; }
+
+article#texto3 h2 { font-size: 20px;
+box-sizing: border-box;
+text-align: justify;
+word-wrap: break-word;
+padding: 10px;   }
+
+
+article#texto3 p {box-sizing: border-box;
+margin: 0;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;
+
+-moz-column-width: 300px;
+-moz-column-gap: 15px;
+-moz-column-rule: 1px solid black;
+-webkit-column-width: 300px;
+-webkit-column-gap: 15px;
+-webkit-column-rule: 1px solid black; }
+
+
+article#texto4 {width: 650px;
+height: 200px;
+background-color: #c3e0e8;
+float: left;
+margin-bottom: 20px;
+
+box-shadow: -5px 5px 7px #3d3d3d;
+-moz-box-shadow: -5px 5px 7px #3d3d3d;
+-webkit-box-shadow: -5px 5px 7px #3d3d3d;
+ }
+
+article#texto4 h2 { font-size: 20px;
+box-sizing: border-box;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;   }
+
+article#texto4 p {box-sizing: border-box;
+margin: 0;
+padding: 10px;
+text-align: justify;
+word-wrap: break-word;
+
+-moz-column-width: 300px;
+-moz-column-gap: 15px;
+-moz-column-rule: 1px solid black;
+-webkit-column-width: 300px;
+-webkit-column-gap: 15px;
+-webkit-column-rule: 1px solid black; }
+
+div#imagen4 {width: 300px;
+height: 200px;
+float: right;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/mercurio2.png);
+margin-left: 10px;
+margin-bottom: 20px;
+border: 1px solid white;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+ box-sizing: border-box;
+
+ -moz-box-shadow: 0px 0px 30px #c3e0e8;
+-webkit-box-shadow: 0px 0px 30px #c3e0e8;
+box-shadow: 0px 0px 30px #c3e0e8;
+    }
+
+article#texto5 {width: 320px;
+height: 150px;
+clear: both;
+margin-left: auto;
+margin-right: auto;
+}
+
+article#texto5 p {box-sizing: border-box;
+	padding-top: 10px;
+text-align: center;
+word-wrap: break-word;
+font-size: 25px;
+text-shadow: 
+1px 1px 0px rgba(230,230,230,1),
+2px 2px 0px rgba(200,200,200,1),
+3px 3px 0px rgba(180,180,180,1),
+4px 4px 0px rgba(160,160,160,1); }
+
+
+div#textoplanetas {width: 300px;
+height: 50px;
+background-color: white;
+padding: 10px;
+margin-bottom: 10px;  }
+
+#textoplanetas h3 {}
+
+
+div#planetastodos {width: 960px;
+height: 100px;
+}
+
+div#planetastodos ul {list-style-type: none;
+	text-decoration-style: none;
+	position: relative;
+    transition: 0.5s; }
+
+div#planetastodos ul:hover li a {
+opacity: .2;
+filter: blur(3px);   }
+
+#planetastodos ul li {display: inline-block;
+margin-right: 20px;
+}
+
+#planetastodos ul li img { border: 1px solid black;
+-moz-border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px; }
+
+
+img#venusprimero {margin-left: 10px;}
+
+div#planetastodos ul li a:hover {
+opacity: 1;
+filter: blur(0);   }
+
+
+
+
+
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+
+
+header {width: 580px; 
+  }
+
+div#marca {width: 250px;
+height: 150px;
+left: 10px;
+   }
+
+nav#botonera_1 {width: 320px;
+ }
+
+
+nav#botonera_1 ul li a {
+padding: 30px 5px;
+}
+
+
+section#contenido {width: 580px;
+height: 1550px;
+}
+
+div#imagen_1 {
+height: 450px;
+  }
+
+article#texto_1 {width: 280px;
+height: 450PX; }
+
+
+div#imagen_2 {width: 285px;
+height: 195px;
+background-size: 300px 200px;
+margin-left: 0;
+border: 1px solid black;
+float: left;
+}
+
+ 
+div#imagen_3 {width: 285px;
+height: 195px;  }
+
+
+article#texto_2 {width: 580px;
+}
+
+
+div#imagen_4 {width: 580px;
+	height: 200px;
+	background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/space.jpg);
+background-size: cover; }
+
+article#texto_3 {width: 350px;
+ }
+
+
+div#imagen_5 { float: right;
+margin-left: 0; }
+
+article#texto_4 {width: 580px;
+height: 150px;
+background-color: #e3d5f5;
+box-sizing: border-box;
+-moz-box-shadow: 0px 0px 30px #7d64a1;
+-webkit-box-shadow: 0px 0px 30px #7d64a1;
+box-shadow: 0px 0px 30px #7d64a1;
+margin-top: 10px; }
+
+article#texto_4 p {
+color: black;
+ }
+
+
+footer {width: 580px;
+height: 100px;
+}
+
+
+#signos {width: 580px;
+height: 500px;
+}
+
+
+#primero { width: 300px;
+margin-top: 10px;
+
+}
+
+#primero video {
+margin-bottom: 20px; 
+}
+
+#segundo {width: 300px;
+margin-top: 20px;
+   }
+
+#segundo video {
+border: solid 5px white;
+box-shadow: -5px 10px 7px #3d3d3d;
+-moz-box-shadow: -5px 10px 7px #3d3d3d;
+-webkit-box-shadow: -5px 10px 7px #3d3d3d;  }
+
+
+#zodiacsigns {
+width: 230px;
+height: 100px;
+margin-top: 0;
+margin-bottom: 20px;
+line-height: 250px;
+}
+
+
+
+
+#hatezodiac {
+width: 200px;
+height: 50px;
+line-height: normal;
+margin-top: 100px;
+}
+
+
+
+
+
+
+#carta_astral {width: 580px;
+height: 650px;
+    }
+
+
+
+
+.img_brush {width: 300px;
+height: 200px;
+margin-left: 140px;
+margin-top: 30px; 
+
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/300200.png);
+ }
+
+
+
+
+#formulario {width: 280px;
+	height: 400px;
+    border: 1px solid;
+    border: black;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    float: none;
+      } 
+
+
+
+
+/*planetas contenido */
+
+
+#planetas_contenido {width: 580px;
+height: 1300px;
+ }
+
+div#imagen1 {width: 580px;
+ }
+
+
+article#texto1 { width: 260px;
+	margin-bottom: 10px;
+ }
+
+
+div#imagen2 {width: 310px;
+	margin-bottom: 10px;
+	margin-right: 0;
+} 
+
+article#texto2 { width: 580px;
+height: 110px;
+margin-bottom: 10px;
+}
+
+
+div#imagen3 {width: 280px;
+height: 300px;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/moon.jpg);
+margin-bottom: 10px;
+    }
+
+article#texto3 {width: 290px;
+height: 300px;
+margin-bottom: 10px; }
+
+article#texto3 h2 {
+text-align: center;
+}
+
+
+
+article#texto4 {width: 290px;
+height: 320px;
+
+ }
+
+
+div#imagen4 {width: 280px;
+height: 320px;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/mercury.png);
+    }
+
+
+}   /*fin media 600 a 1023*/
+
+
+
+
+
+
+@media all and (max-width: 599px)  {    
+
+
+header {width: 90%; 
+height: auto;
+  }
+
+div#marca {width: 50%;
+height: 150px;
+float: none;
+background-size: cover;
+left: 0;
+margin-right: 13px;
+
+   }
+
+
+nav#botonera_1 {width: 100%;
+height: auto;
+float: none;
+ }
+
+
+nav#botonera_1 ul li {display: block;
+  }
+
+nav#botonera_1 ul li a {
+padding: 20px 10px;
+box-sizing: border-box;
+text-align: center;
+width: 100%;
+}
+
+
+
+
+section#contenido {width: 90%;
+height: auto;
+ }
+
+div#imagen_1 { display: none;  }
+
+
+article#texto_1 {width: 100%;
+height: auto;
+float: none;
+ }
+
+
+
+div#imagen_2 {display: none;
+   }
+
+ 
+div#imagen_3 {width: 100%;
+height: 260px;
+float: none;
+ }
+
+article#texto_2 {width: 100%;
+height: auto;
+float: none;
+   }
+
+
+div#imagen_4 {width: 100%;
+background-size: cover;
+float: none;
+ }
+
+article#texto_3 {width: 100%;
+height: auto;
+float: none;
+   }
+
+
+div#imagen_5 {width: 100%;
+float: none;
+margin-top: 10px;
+margin-left: 0;
+   }
+
+article#texto_4 {width: 100%;
+height: auto;
+float: none;
+margin-top: 10px;
+   }
+
+
+nav#botonera_2 {width: 100%;
+height: auto;
+float: none;
+    }
+
+
+
+footer {width: 90%;
+height: auto;
+ }
+
+
+#signos {width: 90%;
+height: auto;
+ }
+
+
+
+#primero { width: 100%;
+float: none;
+
+}
+
+#primero video {margin-left: 0;
+	margin-top: 30px;
+margin-bottom: 0; 
+border: none;  }
+
+
+#segundo {width: 100%;
+float: none;
+   }
+
+#segundo video {margin-right: 0;
+border: none;
+margin-bottom: 30px;
+ }
+
+
+#zodiacsigns {
+float: none;
+width: 100%;
+height: auto;
+margin: 0;
+line-height: 100px;
+
+}
+
+
+#hatezodiac {
+float: none;
+width: 100%;
+height: auto;
+line-height: 50px;
+margin-left: 0;
+ }
+
+
+
+
+
+#carta_astral {width: 90%;
+height: auto;
+    }
+
+
+    .img_brush {width: 100%;
+float: none; 
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/imgbrush3.png);
+ }
+
+
+
+
+
+
+#formulario {width: 100%;
+	height: auto;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    float: none;
+      } 
+
+
+
+/*planetas contenido */
+
+
+#planetas_contenido {width: 90%;
+height: auto;
+ }
+
+div#imagen1 {width: 100%;
+	margin: 0;
+ }
+
+article#texto1 { display: none;
+ }
+
+
+
+div#imagen2 {width: 100%;
+float: none;
+margin-left: 0;
+margin-right: 0;
+margin-top: 20px;
+margin-bottom: 10px;
+background-size: cover;
+
+  } 
+
+article#texto2 { width: 100%;
+height: auto;
+float: none;
+margin-bottom: 20px;
+
+}
+
+
+div#imagen3 {width: 100%;
+float: none;
+margin-right: 0;
+margin-bottom: 10px;
+background-image: url(https://lohnert.000webhostapp.com/modulo%202%20ejercicio%203/moon.jpg);
+background-size: cover;
+
+    }
+
+article#texto3 {width: 100%;
+height: auto;
+float: none;
+margin-bottom: 20px;
+ }
+
+
+
+article#texto4 {width: 100%;
+height: auto;
+float: none;
+margin-bottom: 10px;
+ }
+
+
+div#imagen4 {width: 100%;
+float: none;
+background-size: cover;
+margin-left: 0;
+margin-bottom: 20px;
+
+    }
+
+article#texto5 {width: 100%;
+
+}
+
+
+
+
+}  /* fin media -599 px */
+
